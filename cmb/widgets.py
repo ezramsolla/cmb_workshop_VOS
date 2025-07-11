@@ -19,8 +19,8 @@ class CMBStoringData:
     mean_image: object
 
     def __init__(self):
-        dir = os.path.dirname(os.path.abspath(__file__))
-        fits=f'{dir}/../data/COM_CMB_IQU-commander_1024_R2.02_dg16_car.fits'
+        base_dir = '/content/drive/My Drive'
+        fits=f'{base_dir}/../act-planck_dr6.02_nilc_blackbody_T.fits'
         self.map = cmb_utils.load_cmb_map(fits)
         self.coords = []
         self.mean_image = None
