@@ -20,7 +20,7 @@ class CMBStoringData:
 
     def __init__(self):
         base_dir = '/content/drive/My Drive'
-        fits=f'{base_dir}/act-planck_dr6.02_nilc_blackbody_T.fits'
+        fits=f'{base_dir}/act-planck_dr4dr6_coadd_AA_daynight_f090_map_srcfree.fits'
         self.map = cmb_utils.load_cmb_map(fits)
         self.coords = []
         self.mean_image = None
