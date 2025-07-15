@@ -68,7 +68,7 @@ cmb_cobes = np.array([
 ])
 
 cmb_map_url = 'https://phy-act1.princeton.edu/public/snaess/actpol/dr5/atlas/'
-new_cmb_map_url = 'content/drive/MyDrive/
+new_cmb_map_url = 'content/drive/My Drive/act-planck_dr4dr6_coadd_AA_daynight_f090_map_srcfree.fits'
 
 cmb_thumbnails_coords = np.array([
     [-46.266, -25.65],
